@@ -12,11 +12,6 @@
   box-sizing: border-box;
 }
 
-.page {
-  min-inline-size: 360px;
-  margin: 0;
-}
-
 p,
 h1,
 h2,
@@ -27,4 +22,23 @@ ol,
 li,
 figure {
   margin: 0;
+}
+
+.page {
+  min-inline-size: 360px;
+  margin: 0;
+  color: var(--text-color, #312a4e);
+  font-family: var(--main-font, sans-serif);
+  background-color: var(--bg-color, #f3efec);
+}
+
+.heading {
+  font-family: var(--accent-font, serif);
+  font-weight: 600;
+  line-height: 0.9;
+  text-align: center;
+}
+
+.content-section {
+  padding: 0 5vi;
 }
